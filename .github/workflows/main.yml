@@ -1,0 +1,8 @@
+name: Test Suite
+on: push
+jobs:
+  test:
+    runs-on: buildjet-4vcpu-ubuntu-2204
+    name: Test
+    steps:
+      - uses: actions/checkout@v2
